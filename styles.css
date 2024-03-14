@@ -13,4 +13,45 @@ html, body {
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+.nav-add {
+    margin-left: 10px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid gray;
+}
+
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+.add-icon i {
+    font-size: 0.9rem;
+}
+.add-first {
+    color: #cccccc;
+    font-size: 0.7rem;
+    margin-left: 17px;
+}
+.add-sec {
+    font-size: 0.9rem;
+    margin-left: 8px;
 }
